@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 number = 0
 @app.route('/')
-def ping():
+def index():
     return 'hello world'
 
 @app.route('/ping')
